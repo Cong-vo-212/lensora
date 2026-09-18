@@ -1,0 +1,41 @@
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+:root {
+	--text-color-primary: #000;
+	--text-color-secondary: #9d9d9d;
+
+	--background-gray: #f8f8f8;
+
+	--border: #eaeaea;
+}
+
+html {
+	font-size: 62.5%;
+	background: #ccc;
+}
+
+body {
+	height: 5000px;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: var(--text-color-primary);
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+button {
+	font-family: "Plus Jakarta Sans", sans-serif;
+	background: transparent;
+	cursor: pointer;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
